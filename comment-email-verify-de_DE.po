@@ -1,0 +1,308 @@
+# Translation of the WordPress plugin Comment E-Mail Verification 0.4 by Martin Lormes.
+# Copyright (C) 2010-2011 Martin Lormes
+# This file is distributed under the same license as the Comment E-Mail Verification package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Comment E-Mail Verification 0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/comment-email-verify\n"
+"POT-Creation-Date: 2011-04-06 20:00:17+00:00\n"
+"PO-Revision-Date: 2011-04-07 07:32+0100\n"
+"Last-Translator: Martin Lormes <martinhh@gmail.com>\n"
+"Language-Team:  <martinhh@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: comment-email-verify.php:125
+#: comment-email-verify.php:340
+msgid "[[blogname]] Please verify your e-mail address"
+msgstr "[[blogname]] Bitte bestätigen Sie Ihre E-Mail-Adresse"
+
+#: comment-email-verify.php:146
+#: comment-email-verify.php:360
+msgid ""
+"Dear [author-name],\n"
+"\n"
+"thanks for replying to [post-title] ([post-permalink]) on [blogname] - [blogdescription] ([home]).\n"
+"\n"
+"Please verify your email address by clicking on this link:\n"
+"[verification-url]\n"
+"\n"
+"This is your comment:\n"
+"\n"
+"[comment]\n"
+"\n"
+"--\n"
+"This comment was posted from [author-ip] - [author-hostname]"
+msgstr ""
+"Sehr geehrte(r) [author-name],\n"
+"\n"
+"vielen Dank für Ihren Kommentar zu [post-title] ([post-permalink]) auf [blogname] - [blogdescription] ([home]).\n"
+"\n"
+"Bitte bestätigen Sie Ihre E-Mail-Adresse indem Sie folgenden Link anklicken:\n"
+"[verification-url]\n"
+"\n"
+"Das ist Ihr Kommentar:\n"
+"\n"
+"[comment]"
+
+#: comment-email-verify.php:210
+msgid ""
+"%s<br/>\n"
+"If you verify your address your comment will be approved immediately. Instructions have been sent to you by e-mail."
+msgstr ""
+"%s<br/>\n"
+"Wenn Sie Ihre E-Mail-Adresse bestätigen wird Ihr Kommentar sofort freigeschaltet. Einen Bestätigungslink haben wir Ihnen per E-Mail gesendet."
+
+#. #-#-#-#-#  plugin.pot (Comment E-Mail Verification 0.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: comment-email-verify.php:236
+#: comment-email-verify.php:253
+#: comment-email-verify.php:261
+#: comment-email-verify.php:280
+#: comment-email-verify.php:829
+#: comment-email-verify.php:831
+msgid "Comment E-Mail Verification"
+msgstr ""
+
+#: comment-email-verify.php:240
+#: comment-email-verify.php:427
+msgid "Good news: your comment has already been approved. &ndash; <a href=\"%1$s\">Click here to see it</a>"
+msgstr "<a href=\"%1$s\">Tolle Neuigkeiten: Ihr Kommentar war bereits freigeschaltet</a>"
+
+#: comment-email-verify.php:255
+msgid "Your address could not be verified. &ndash; <a href=\"%1$s\">Return to the %2$s homepage</a>"
+msgstr "Ihre Adresse konnte nicht bestätigt werden. &ndash; <a href=\"%1$s\">Zurück zur Homepage von %2$s</a>"
+
+#: comment-email-verify.php:263
+msgid "Your comment could not be approved. &ndash; <a href=\"%1$s\">Return to the %2$s homepage</a>"
+msgstr "Ihr Kommentar konnte nicht freigeschaltet werden. &ndash; <a href=\"%1$s\">Zurück zur Homepage von %2$s</a>"
+
+#: comment-email-verify.php:284
+#: comment-email-verify.php:395
+msgid "Your comment has now been approved. &ndash; <a href=\"%1$s\">Click here to see it</a>"
+msgstr "<a href=\"%1$s\">Ihr Kommentar ist jetzt freigeschaltet.</a>"
+
+#: comment-email-verify.php:298
+msgid "<p>Customize the e-mail message you are sending to comment authors. Leave a field blank to reset it to the default.</p>"
+msgstr "<p>Passen Sie die E-Mail-Nachricht an, die an Kommentar-Autoren verschickt wird. Lassen Sie ein Feld leer, um es auf die Standard-Einstellung zurückzusetzen.</p>"
+
+#: comment-email-verify.php:304
+msgid "<p>Customize the hint comment authors are given about their comment awaiting moderation. Leave the field blank to reset it to the default.</p>"
+msgstr "<p>Passen Sie den Hinweis an, den der Autor eines Kommentars erhält, der noch auf Freischaltung wartet. Lassen Sie das Feld leer, um es auf den Standard-Hinweis zurückzusetzen.</p>"
+
+#: comment-email-verify.php:312
+msgid "<p>When a commenter clicks on a verification link they are taken straight back to their own comment. You may also show them a splash screen with details about the verification process. Leave a field blank to reset it to the default.</p>"
+msgstr "<p>Wenn ein Kommentar-Autor auf den Bestätigungslink klickt wird er direkt zu seinem Kommentar weitergeleitet. Sie können alternativ auch ein Meldungsfenster anzeigen lassen mit dem der Bestätigungsvorgang erklärt wird. Lassen Sie das Feld leer, um es auf die Standard-Einstellung zurückzusetzen.</p>"
+
+#: comment-email-verify.php:318
+msgid "<p>By default a comment is approved immediately when the comment author clicks on the verification link.</p><p>You may also keep comments in moderation even after the comment authors have verified their address. In this case you should consider turning on the splash screens in the previous section and editing the default messages. You should also edit the comment moderation notification two sections up on this page.</p><p>Whether or not comment authors have verified their address will be indicated on the Dashboard and on the <a href=\"edit-comments.php?comment_status=moderated\">%1$s</a> page.</p>"
+msgstr "<p>Standardmäßig wird ein Kommentar sofort freigeschaltet wenn der Autor des Kommentars auf den Bestätigungslink klickt.</p><p>Sie haben die Option, Kommentare in der Warteschlange zu behalten, selbst wenn der Bestätigungslink angeklickt wurde. In diesem Fall sollten Sie die Meldungsfenster im vorherigen Bereich einschalten und anpassen. Sie sollten auch den Hinweis auf die Kommentarmoderation weiter oben anpassen.</p><p>Ob ein Kommentar-Autor den Bestätigunslink angeklickt hat oder nicht wird auf dem Dashboard und auf der Seite <a href=\"edit-comments.php?comment_status=moderated\">%1$s</a> angezeigt.</p>"
+
+#: comment-email-verify.php:331
+msgid "<p>These are WordPress core settings. They may affect this plugin. They can also be set on <a href=\"options-discussion.php\">%s</a>.</p>"
+msgstr "<p>Die folgenden Einstellungen sind WordPress-Einstellungen. Sie könnten dieses Plugin beeinflussen. Sie können auch unter <a href=\"options-discussion.php\">%s</a> geändert werden.</p>"
+
+#: comment-email-verify.php:349
+msgid "You may use the following shortcodes in the subject line: <code>[blogname]</code>, <code>[post-title]</code>"
+msgstr "Sie können die folgenden Shortcodes im Betreff verwenden: <code>[blogname]</code>, <code>[post-title]</code>"
+
+#: comment-email-verify.php:369
+msgid "You may use the following shortcodes in the message body: <code>[verification-url]</code>*, <code>[blogname]</code>, <code>[blogdescription]</code>, <code>[home]</code>, <code>[post-title]</code>, <code>[post-permalink]</code>, <code>[author-name]</code>, <code>[author-email]</code>, <code>[author-url]</code>, <code>[author-ip]</code>, <code>[author-hostname]</code>, <code>[comment]</code><br/><br/>* If you don't use <code>[verification-url]</code> that information will be appended to your message after a blank line."
+msgstr "Sie können die folgenden Shortcodes im Nachrichtentext verwenden: <code>[verification-url]</code>*, <code>[blogname]</code>, <code>[blogdescription]</code>, <code>[home]</code>, <code>[post-title]</code>, <code>[post-permalink]</code>, <code>[author-name]</code>, <code>[author-email]</code>, <code>[author-url]</code>, <code>[author-ip]</code>, <code>[author-hostname]</code>, <code>[comment]</code><br/><br/>* Wenn <code>[verification-url]</code> nicht verwendet wird, dann wird der Link nach einer Leerzeile ans Ende der Nachricht gesetzt."
+
+#: comment-email-verify.php:381
+msgid "Unlike in your posts, pages, or comments, line breaks will not be converted to HTML line breaks. You must insert <code>&lt;br/&gt</code> manually.<br/><br/>Your theme must either use the default comment template or have <code>%s</code> in the custom comment template."
+msgstr "Anders als in Artikeln, auf Seiten oder in Kommentaren werden Zeilenumbrüche nicht in HTML-Zeilenumbrüche umgewandelt. Sie müssen <code>&lt;br/&gt</code> selbst einfügen.<br/><br/>Ihr Theme muss entweder die Standard-Kommentar-Vorlage verwenden oder in einer individuellen Vorlage muss <code>%s</code> verwendet werden."
+
+#: comment-email-verify.php:405
+#: comment-email-verify.php:437
+msgid "Unlike in your posts, pages, or comments, line breaks will not be converted to HTML line breaks. You must insert <code>&lt;br/&gt</code> manually. To link to the comment please use <code>&lt;a href=\"%1$s\"&gt;</code>. Leave this field blank to reset it to the default message."
+msgstr "Anders als in Artikeln, auf Seiten oder in Kommentaren werden Zeilenumbrüche nicht in HTML-Zeilenumbrüche umgewandelt. Sie müssen <code>&lt;br/&gt</code> selbst einfügen. Um zu dem Kommentar zu verlinken verwenden Sie <code>&lt;a href=\"%1$s\"&gt;</code>. Lassen Sie das Feld leer, um es auf die Standard-Einstellung zurückzusetzen."
+
+#: comment-email-verify.php:459
+msgid "Turn off self-approval (i.e. hold comment for moderation even after successful E-mail verification)"
+msgstr "Sofortige Freischaltung ausschalten (d.h. der Kommentar wird auch beim Klick auf den Bestätigungslinks nicht sofort genehmigt)"
+
+#: comment-email-verify.php:477
+msgid "Show a splash screen (as configured below)"
+msgstr "Zeige ein Meldungsfenster (nachfolgende Einstellung)"
+
+#: comment-email-verify.php:485
+msgid "Redirect to the comment without further ado"
+msgstr "Ohne Meldungsfenster direkt zum Kommentar weiterleiten"
+
+#: comment-email-verify.php:506
+msgid "leave empty to use the default <code>wordpress@%s</code>"
+msgstr "leer lassen um den Standard <code>wordpress@%s</code> zu verwenden"
+
+#: comment-email-verify.php:519
+msgid "leave empty to use the default <code>WordPress</code>"
+msgstr "leer lassen um den Standard <code>WordPress</code> zu verwenden"
+
+#: comment-email-verify.php:534
+msgid "leave empty to send mail using the <a href=\"http://php.net/manual/en/function.mail.php\">mail</a> function"
+msgstr "leer lassen um Mails mittels der Funktion <a href=\"http://php.net/manual/de/function.mail.php\">mail</a> von PHP zu senden"
+
+#: comment-email-verify.php:549
+msgid "leave empty to use the default, which is <code>25</code> for unencrypted connections or TLS or <code>465</code> for SSL"
+msgstr "leer lassen, um die Standardwerte zu verwenden: <code>25</code> für unverschlüsselte Verbindungen oder TLS, <code>465</code> für SSL"
+
+#: comment-email-verify.php:562
+msgid "- None -"
+msgstr "- Keine -"
+
+#: comment-email-verify.php:563
+msgid "SSL"
+msgstr ""
+
+#: comment-email-verify.php:564
+msgid "TLS"
+msgstr ""
+
+#: comment-email-verify.php:589
+msgid "defaults to <code>10</code> &ndash; should only be changed if you know you have a slow SMTP server &ndash; does not work on Windows webservers"
+msgstr "Standardwert ist <code>10</code> &ndash; sollte nur geändert werden, wenn der SMTP-Server als langsam bekannt ist &ndash; funktioniert nicht, wenn der Web-Server unter Windows läuft"
+
+#: comment-email-verify.php:604
+msgid "leave empty to send mail without authentication, e.g. when your webserver is a trusted host in your mailserver configuration"
+msgstr "leer lassen um Mails ohne Authentifizierung zu versenden, z.B. wenn der Web-Server in der Konfiguration des Mail-Servers als vertrauenswürdig eingestuft wurde"
+
+#: comment-email-verify.php:619
+msgid "hide the password"
+msgstr "Kennwort verstecken"
+
+#: comment-email-verify.php:622
+msgid "show the password"
+msgstr "Kennwort anzeigen"
+
+#: comment-email-verify.php:638
+msgid "defaults to <code>%s</code> &ndash; you may have to change this if you use SMTP without authentication on a server that performs HELO/EHLO checks"
+msgstr "Standard ist <code>%s</code> &ndash; sollte geändert werden, wenn SMTP ohne Authentifizierung verwendet wird aber der Server die HELO/EHLO Zeichenkette prüft"
+
+#: comment-email-verify.php:745
+msgid "(pending E-mail verification)"
+msgstr "(Bestätigung der E-Mail-Adresse ausstehend)"
+
+#: comment-email-verify.php:749
+msgid "(E-mail verified)"
+msgstr "(E-Mail-Adresse bestätigt)"
+
+#: comment-email-verify.php:757
+msgid "E-mail message template"
+msgstr "E-Mail-Vorlage"
+
+#: comment-email-verify.php:758
+msgid "Subject"
+msgstr "Betreff"
+
+#: comment-email-verify.php:759
+msgid "Message body"
+msgstr "Text der Nachricht"
+
+#: comment-email-verify.php:762
+msgid "From e-mail address"
+msgstr "Absender-E-Mail-Adresse"
+
+#: comment-email-verify.php:763
+msgid "From name"
+msgstr "Absender-Name"
+
+#: comment-email-verify.php:767
+msgid "Comment moderation notification"
+msgstr "Hinweis auf die Kommentarmoderation"
+
+#: comment-email-verify.php:768
+msgid "Change &ldquo;%s&rdquo; to:"
+msgstr "Ändere &bdquo;%s&ldquo; in:"
+
+#: comment-email-verify.php:772
+msgid "Splash screens"
+msgstr "Meldungsfenster"
+
+#: comment-email-verify.php:773
+msgid "When someone clicks on a verification link"
+msgstr "Wenn jemand auf einen Bestätigungslink klickt"
+
+#: comment-email-verify.php:774
+msgid "On successful verification"
+msgstr "Nach erfolgreicher Bestätigung"
+
+#: comment-email-verify.php:775
+msgid "If the comment was previously approved"
+msgstr "Wenn der Kommentar bereits genehmigt wurde"
+
+#: comment-email-verify.php:777
+#: comment-email-verify.php:831
+msgid "Advanced settings"
+msgstr "Weitere Einstellungen"
+
+#: comment-email-verify.php:778
+msgid "Turn off self-approval"
+msgstr "Sofortige Freischaltung aus"
+
+#: comment-email-verify.php:780
+msgid "SMTP settings"
+msgstr "SMTP-Einstellungen"
+
+#: comment-email-verify.php:781
+msgid "Server"
+msgstr ""
+
+#: comment-email-verify.php:782
+msgid "Port"
+msgstr ""
+
+#: comment-email-verify.php:783
+msgid "Encryption"
+msgstr "Verschlüsselung"
+
+#: comment-email-verify.php:784
+msgid "Username"
+msgstr "Benutzername"
+
+#: comment-email-verify.php:785
+msgid "Password"
+msgstr "Kennwort"
+
+#: comment-email-verify.php:786
+msgid "Server timeout [seconds]"
+msgstr "Max. Antwortzeit [Sekunden]"
+
+#: comment-email-verify.php:787
+msgid "HELO"
+msgstr ""
+
+#: comment-email-verify.php:789
+msgid "WordPress core settings"
+msgstr "WordPress-Einstellungen"
+
+#: comment-email-verify.php:813
+#: comment-email-verify.php:829
+msgid "Comment E-Mail Verification Settings"
+msgstr "Einstellungen › Comment E-Mail Verification"
+
+#: comment-email-verify.php:831
+msgid "<p><em>%1$s</em> sends an e-mail message to the comment author when a comment is held for moderation. The e-mail message contains a link to verify the comment author's e-mail address. When the comment author clicks on that link the comment gets approved immediately. This makes discussions more lively as users don't have to wait for the blog admin to approve the comment.</p><p>You may also keep comments in moderation even after the comment authors have verified their address. To do so please scroll down to the \"%2$s\" section.</p><p>You can customize the e-mail message using a number of <a href=\"http://ten-fingers-and-a-brain.com/wordpress-plugins/comment-email-verify/shortcodes/\">shortcodes</a>.</p><p>Please note: the e-mail message is sent to the <em>comment</em> author, not the post author.</p><p>A number of factors can influence e-mail delivery to the comment authors. The messages might not be received at all or caught by spam filters. <a href=\"http://ten-fingers-and-a-brain.com/wordpress-plugins/comment-email-verify/troubleshooting/\">Troubleshoot e-mail delivery</a></p>"
+msgstr "<p><em>%1$s</em> sendet eine E-Mail-Nachricht an den Autor eines Kommentars wenn der Kommentar zur Genehmigung zurückgehalten wird. Die E-Mail-Nachricht enthält einen Bestätigungslink um die E-Mail-Adresse des Autor zu überprüfen. Wenn der Kommentar-Autor den Link anklickt wird der Kommentar sofort freigeschaltet. Dadurch werden Diskussionen lebendiger da die Besucher des Blogs nicht abwarten müssen, bis der Kommentar von einem Moderator genehmigt wird.</p><p>Sie haben die Option, Kommentare in der Warteschlange zu behalten, selbst wenn der Bestätigungslink angeklickt wurde. Diese Einstellung finden Sie weiter unten auf dieser Seite unter \"%2$s\".</p><p>Sie können die E-Mail-Nachricht anpassen, die an die Kommentar-Autoren verschickt wird. Dafür können Sie einige spezielle <a href=\"http://ten-fingers-and-a-brain.com/wordpress-plugins/comment-email-verify/shortcodes/\">Shortcodes</a> verwenden.</p><p>Bitte beachten Sie: die E-Mail-Nachricht wird an den Autor des <em>Kommentars</em> verschickt, nicht den Autor des Artikels.</p><p>Diverse Faktoren können Einfluss auf die Zustellung der E-Mail-Nachricht an den Kommentar-Autor haben. Die Nachricht kommt evtl. nicht an oder bleibt im Spam-Filter hängen. <a href=\"http://ten-fingers-and-a-brain.com/wordpress-plugins/comment-email-verify/troubleshooting/\">Hier finden Sie ein paar Tipps zur Fehlersuche</a></p>"
+
+#. Plugin URI of the plugin/theme
+msgid "http://ten-fingers-and-a-brain.com/wordpress-plugins/comment-email-verify/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "If a comment is held for moderation an e-mail message is sent to the comment's author with a link to verify the comment author's e-mail address. When the comment author clicks on that link the comment gets approved immediately. This makes discussions more lively as users don't have to wait for the blog admin to approve the comment."
+msgstr "Wenn ein Kommentar nicht automatisch freigeschaltet wird sendet dieses Plugin eine E-Mail mit einem Bestätigunslink an den Autor des Kommentars. Wenn der Autor auf diesen Link klickt wird der Kommentar sofort freigeschaltet. Dadurch werden Diskussionen lebendiger da die Besucher des Blogs nicht abwarten müssen, bis der Kommentar von einem Moderator genehmigt wird."
+
+#. Author of the plugin/theme
+msgid "Martin Lormes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ten-fingers-and-a-brain.com/"
+msgstr ""
+
